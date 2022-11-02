@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-t"
+version = "0.1.0"
+description = ""
+authors = ["Vadym Koroliuk <vkqa@outlook.com>"]
+readme = "README.md"
+packages = [{include = "poetry_t"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+webdriver-manager = "^3.8.4"
+selenium = "^4.5.0"
+pytest = "^7.2.0"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
